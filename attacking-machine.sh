@@ -13,38 +13,34 @@ cidade="Rio de Janeiro - RJ"
 echo $cidade $datahora 
 echo ""
 echo ""
-
-# 1. Instalar pacotes completos do Kali Linux
+#1. Instalar pacotes completos do Kali Linux
 echo "Instalando pacotes completos do Kali Linux..."
-sudo apt install -y kali-linux-large
-
-# 2. Instalar dependências essenciais
+apt-get install -y kali-linux-large
+echo ""
+#2. Instalar dependências essenciais
 echo "Instalando dependências essenciais..."
-sudo apt install -y python3 python2.7 golang apache2
-
-# 3. Instalar o Nuclei
+apt-get install -y python3 python2.7 golang apache2
+echo ""
+#3. Instalar o Nuclei
 echo "Instalando o Nuclei..."
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 sudo cp ~/go/bin/nuclei /usr/bin/
-
-# 4. Instalar o Docker IO
+#4. Instalar o Docker IO
 echo "Instalando o Docker IO..."
-sudo apt install -y docker.io
-sudo systemctl start docker
-sudo systemctl enable docker
-
-# 5. Atualizar pacotes do sistema
+apt-get install -y docker.io
+systemctl start docker
+systemctl enable docker
+#5. Atualizar pacotes do sistema
 echo "Atualizando pacotes do sistema..."
-sudo apt update && sudo apt upgrade -y
+apt-get update && apt-get upgrade -y
 
 # 6. Instalar o Kali Win-KeX (última etapa)
 echo "Instalando o Kali Win-KeX..."
-sudo apt install -y kali-win-kex
+apt-get install -y kali-win-kex
 
 # 7. Configurar o Kex
 echo "Configurando o Win-KeX..."
 kex --esm
 
 # Finalização
-echo Vini@212651
-"Configuração concluída! O ambiente está pronto."
+echo "Configuração concluída! O ambiente está pronto."
