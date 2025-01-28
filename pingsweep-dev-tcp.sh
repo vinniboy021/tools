@@ -12,9 +12,9 @@ echo ""
 datahora=$(date +%d/%m/%Y" - "%H:%M:%S)
 cidade="Rio de Janeiro - RJ"
 echo $cidade $datahora
-
+echo ""
 echo "PingSweep com /dev/tcp"
-echo
+echo ""
 echo "Digite o IP da rede (Ex.: 192.168.0)"
 read rede
 echo "Digite uma porta (Ex: 80)"
