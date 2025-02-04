@@ -19,7 +19,7 @@ apt-get install -y kali-linux-large
 echo ""
 #2. Instalar dependências essenciais
 echo "Instalando dependências essenciais..."
-apt-get install -y python3 python2.7 golang apache2 selinux-basics hcxtools nmap kolourpaint whois ccrypt cifs-utils pacu routersploit reaver net-tools hping3 tcpdump netcat-traditional mdk4 git freeradius wget maltego keepassxc-full otpclient duplicity torbrowser-launcher
+apt-get install -y python3 python2.7 golang apache2 selinux-basics hcxtools nmap kolourpaint whois ccrypt cifs-utils pacu routersploit reaver net-tools hping3 tcpdump netcat-traditional mdk4 git freeradius wget maltego keepassxc-full otpclient duplicity torbrowser-launcher netcat-openbsd socat dmitry whatweb python3-venv wget2
 echo ""
 #3. Instalar o Nuclei
 echo "Instalando o Nuclei..."
