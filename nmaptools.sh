@@ -5,7 +5,7 @@
 #site = Endereço de site
 #port = Porta específica
 #mac =  Endereço MAC
-#datahora = Datae hora atual
+#datahora = Data e hora atual
 ###########################################################
 echo "██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗    ████████╗ ██████╗  ██████╗ ██╗     ███████╗"
 echo "██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝"
