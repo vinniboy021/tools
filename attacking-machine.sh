@@ -21,7 +21,7 @@ echo ""
 
 #2. Instalar dependências essenciais
 echo "Instalando dependências essenciais..."
-apt-get install -y python3 python2.7 libssl-dev pkg-config golang apache2 selinux-basics hcxtools rsh-client subfinder amass nmap kolourpaint whois ccrypt cifs-utils pacu routersploit reaver net-tools hping3 tcpdump netcat-traditional mdk4 git freeradius wget maltego keepassxc-full otpclient duplicity torbrowser-launcher netcat-openbsd socat dmitry whatweb python3-venv wget2 cargo 
+apt-get install -y python3 python2.7 libssl-dev hostapd pkg-config golang apache2 selinux-basics hcxtools rsh-client subfinder amass nmap kolourpaint whois ccrypt cifs-utils pacu routersploit reaver net-tools hping3 tcpdump netcat-traditional mdk4 git freeradius wget maltego keepassxc-full otpclient duplicity torbrowser-launcher netcat-openbsd socat dmitry whatweb python3-venv wget2 cargo 
 echo ""
 
 #3. Instalar o Nuclei
